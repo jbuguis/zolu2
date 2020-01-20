@@ -237,7 +237,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			.container {
-				width: calc(100% - 100px);
+				width: calc(97% - 54px);
 			}
 
 		}
@@ -1069,7 +1069,7 @@ input, select, textarea {
 				}
 
 				.row > .col-6-medium {
-					width: 50%;
+					width: 33%;
 				}
 
 				.row > .off-6-medium {
@@ -1177,11 +1177,11 @@ input, select, textarea {
 
 				.row {
 					margin-top: -50px;
-					margin-left: -50px;
+					/* margin-left: -50px;   */
 				}
 
 					.row > * {
-						padding: 50px 0 0 50px;
+						/* padding: 10px 0 0 10px; */
 					}
 
 					.row.gtr-uniform {
@@ -2307,7 +2307,7 @@ input, select, textarea {
 		/* Features */
 
 			#features {
-				padding: 4em 0;
+				/* padding: 4em 0; */
 			}
 
 		/* Banner */
