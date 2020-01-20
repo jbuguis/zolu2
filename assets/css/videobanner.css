@@ -1,0 +1,157 @@
+
+/* quick reset */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* relevant styles */
+.img__wrap {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.img__description {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  font-size: 5em;
+  padding-top: 50%;
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+.img__description2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  font-size: 5em;
+  padding-top: 20%;
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+
+.img__wrap:hover .img__description {
+  visibility: visible;
+  opacity: 1;
+}
+.img__wrap:hover .img__description2 {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  top:1%;
+  min-width: 100%; 
+  min-height: 100%;
+  max-height: 
+  opacity: 0.70;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  bottom: 0;
+  color: #000;
+  width: 100%;
+
+  height: 100%;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+  width: 30%;
+  font-size: 24px;
+  padding: 30px;
+  border: none;
+  background: #b887c4;
+  color: #000;
+  cursor: pointer;
+  margin-top:50%;
+}
+
+#myBtn:hover {
+  background: #fff;
+  color: black;
+}
+
+#logoheader {
+  position: fixed;
+  background: #fff;
+  width: 100%;
+  z-index:999;
+
+}
+
+
+
+    @media screen and (max-width: 980px) {
+
+      #myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  top:1%;
+  min-width: 100%; 
+  min-height: 100%;
+  max-height: 
+  opacity: 0.70;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  bottom: 0;
+  color: #000;
+  width: 100%;
+
+  height: 100%;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+  width: 20%;
+  font-size: 18px;
+  padding: 20px;
+  border: none;
+  background: #b887c4;
+  color: #000;
+  cursor: pointer;
+  margin-top:50%;
+}
+
+#myBtn:hover {
+  background: #fff;
+  color: black;
+}
+
+#logoheader {
+  position: fixed;
+  background: #fff;
+  width: 100%;
+  z-index:999;
+
+}
+
+    }
+
+
