@@ -84,10 +84,9 @@
   font-size: 24px;
   padding: 30px;
   border: none;
-  background: #b887c4;
   color: #000;
   cursor: pointer;
-  margin-top:50%;
+  margin-top:65%;
 }
 
 #myBtn:hover {
@@ -102,7 +101,18 @@
   z-index:999;
 
 }
-
+.bg_purple {
+  background: #b887c4;
+}
+.bg_yellow {
+  background: #e0da5f;
+}
+.bg_orange {
+  background: #ffaf10;
+}
+.bg_blue {
+  background: #70bbe8;
+}
 
 
     @media screen and (max-width: 980px) {
@@ -232,7 +242,7 @@
   background: #b887c4;
   color: #000;
   cursor: pointer;
-  margin-top:50%;
+  margin-top:40%;
 }
 
 #myBtn:hover {
