@@ -161,6 +161,54 @@
   right: 0;
   bottom: 0;
   top:1%;
+  min-width: 55%; 
+  min-height: 55%;
+  opacity: 0.70;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  bottom: 0;
+  color: #000;
+  width: 100%;
+
+  height: 100%;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+  width: 40%;
+  font-size: 18px;
+  padding: 20px;
+  border: none;
+  background: #b887c4;
+  color: #000;
+  cursor: pointer;
+  margin-top:50%;
+}
+
+#myBtn:hover {
+  background: #fff;
+  color: black;
+}
+
+#logoheader {
+  position: fixed;
+  background: #fff;
+  width: 100%;
+  z-index:999;
+
+}
+
+    }
+
+     @media screen and (max-width: 980px) {
+
+      #myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  top:1%;
   min-width: 45%; 
   min-height: 45%;
   opacity: 0.70;
@@ -201,5 +249,4 @@
 }
 
     }
-
 
