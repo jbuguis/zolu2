@@ -161,7 +161,7 @@
   right: 0;
   bottom: 0;
   top:1%;
-  min-width: 55%; 
+  min-width: 100%; 
   min-height: 55%;
   opacity: 0.70;
 }
