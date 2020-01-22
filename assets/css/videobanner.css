@@ -160,6 +160,19 @@
 
 }
 
+.bg_purple {
+  background: #b887c4;
+}
+.bg_yellow {
+  background: #e0da5f;
+}
+.bg_orange {
+  background: #ffaf10;
+}
+.bg_blue {
+  background: #70bbe8;
+}
+
     }
 
 
@@ -254,6 +267,19 @@
   width: 100%;
   z-index:999;
 
+}
+
+.bg_purple {
+  background: #b887c4;
+}
+.bg_yellow {
+  background: #e0da5f;
+}
+.bg_orange {
+  background: #ffaf10;
+}
+.bg_blue {
+  background: #70bbe8;
 }
 
     }
